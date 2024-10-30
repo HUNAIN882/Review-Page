@@ -109,7 +109,27 @@ p {
   border-radius: 50%;
   border: 5px solid var(--color-text);
   margin-left: -9px;
-  margin-top: 20px;
+  margin-top: 25px;
+ 
 } 
 
+#names a{
+  margin-top: 10px;
+  text-decoration: none;
+  color: var(--color-light);
+}
 
+#names a:hover {
+  text-decoration: none;
+}
+
+
+.swiper-button-prev {
+  margin-left: 500px;
+  margin-top: 90px;
+}
+
+.swiper-button-next {
+  margin-right: 500px;
+  margin-top: 90px;
+}
